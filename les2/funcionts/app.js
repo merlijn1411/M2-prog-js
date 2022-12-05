@@ -10,6 +10,7 @@ class App
         var gY = canvas.height / 2;
         var black = "#000000";
         var white = "#FFFFFF";
+        var red = "#ff0000";
 
         g.beginPath();
         g.moveTo(300,100);
@@ -27,12 +28,13 @@ class App
         g.lineTo(600,600);
         g.lineTo(600,400);
         g.lineTo(200,300);
-        g.fillStyle = black;
+        g.fillStyle = white;
         g.fill();
+        g.stroke();
         g.closePath();
 
         g.beginPath();
-        g.fillStyle = black;
+        g.fillStyle = white;
         g.moveTo(600, 400);
         g.lineTo(600, 600);
         g.lineTo(800, 500);
