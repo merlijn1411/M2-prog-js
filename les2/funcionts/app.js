@@ -58,6 +58,15 @@ class App
         g.stroke();
         g.fill();
     
+        //stroke front 
+        g.beginPath();
+        g.moveTo(600, 400);
+        g.lineTo(600, 400);
+        g.lineTo(800, 300);
+        g.closePath();
+        g.stroke();
+        g.fill();
+        
     }
 
 }

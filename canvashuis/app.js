@@ -9,8 +9,8 @@ class App
     var g = canvas.getContext('2d');
     g.canvas.width  = window.innerWidth;
     g.canvas.height = window.innerHeight;
-    var gX = canvas.width / 2;
-    var gY = canvas.height / 2;
+    var g = canvas.width / 2;
+    var g = canvas.height / 2;
     var black = "#735F32";
     var white = "#ffffff";
     var blue = "#0000cc";
