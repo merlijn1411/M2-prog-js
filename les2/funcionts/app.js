@@ -48,7 +48,7 @@ class App
         g.stroke();
         g.fill();
         
-        //window
+        //window right
         g.beginPath();
         g.fillStyle = Yellow;
         g.moveTo(450, 500);
@@ -60,6 +60,17 @@ class App
         g.stroke();
         g.fill();
     
+        //window left
+        g.beginPath();
+        g.fillStyle = white;
+        g.moveTo(385, 370);
+        g.lineTo(300, 350);
+        g.lineTo(290, 450);
+        g.lineTo(380, 480)
+        g.closePath();
+        g.stroke();
+        g.fill();
+
         //stroke front 
         g.beginPath();
         g.moveTo(600, 400);
