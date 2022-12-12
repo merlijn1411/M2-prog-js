@@ -6,9 +6,11 @@ class App
         var g = canvas.getContext('2d');
         g.canvas.width  = window.innerWidth;
         g.canvas.height = window.innerHeight;
+        let randomGetal = Math.random();
         var black = "#000000";
         var white = "#FFFFFF";
         var Yellow = "#FFFF00";
+        
         //roof
         g.beginPath();
         g.moveTo(300,100);
@@ -66,7 +68,7 @@ class App
         g.closePath();
         g.stroke();
         g.fill();
-        
+
     }
 
 }
